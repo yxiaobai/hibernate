@@ -10,7 +10,8 @@
         <property name="hibernate.connection.username">root</property>
         <property name="hibernate.connection.password"></property>
         <property name="hibernate.connection.autocommit">true</property>
-        <property name="hibernate.hbm2ddl.auto">create</property><!--更新-->
+        <property name="hibernate.hbm2ddl.auto">update</property><!--  更新  -->
+        <!-- <property name="hibernate.hbm2ddl.auto">create</property>  创建（不管有没有都创建）  -->
         <property name="hibernate.show_sql">true</property>
         <property name="hibernate.format_sql">false</property>
 
